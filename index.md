@@ -1,11 +1,4 @@
-## Welcome
-
-My name is Evan Dekhayser, and I am a senior in high school looking to pursue a career in technology and science.
-
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+{% for post in site.posts limit:1 %}
+<a href="{{ post.url }}">{{ post.title}}</a>
+<div>post.content</div>
+{% endfor %}
