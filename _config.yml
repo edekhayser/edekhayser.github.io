@@ -1,3 +1,4 @@
 theme: jekyll-theme-minimal
 title: evan dekhayser
 description: A place for my thoughts.
+baseurl: ./
