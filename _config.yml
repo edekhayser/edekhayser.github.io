@@ -1,4 +1,4 @@
 theme: jekyll-theme-minimal
 title: evan dekhayser
 description: a place for my thoughts
-# baseurl: /
+production_url : http://edekhayser.github.io
