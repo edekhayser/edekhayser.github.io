@@ -7,7 +7,6 @@ permalink: posts
 
 {% for post in site.posts %}
 <p>
-{{ post.date | date: "%-d %b %Y" }}
-<a href="evandekhayser.com" + {{post.url}}>{{post.title}}</a>
+{{ post.date | date: "%-d %b %Y" }} [{{post.title}}](http://evandekhayser.com + {{post.url}})
 </p>
 {% endfor %}
