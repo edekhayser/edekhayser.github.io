@@ -3,8 +3,8 @@ title: posts
 permalink: posts
 ---
 
-##posts 7
+<h2>posts 7</h2>
 
 {% for post in site.posts %}
-{{ post.date | date: "%-d %b %Y" }} [{{post.title}}](http://evandekhayser.com + {{post.url}})
+[**{{post.title}}**](http://evandekhayser.com + {{post.url}})    <h6>{{ post.date | date: "%-d %b %Y" }}</h6>
 {% endfor %}
