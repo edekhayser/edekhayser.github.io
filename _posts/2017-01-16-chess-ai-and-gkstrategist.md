@@ -133,7 +133,7 @@ func alphabeta(model: GKGameModel, depth: Int, alpha: Int, beta: Int, maximizing
 }
 ```
 
-I was able to understand Alpha-Beta pruning enough to make this code functional, but I don’t think I could effectively explain it to others. I must defer to the [Wikipedia](https://en.wikipedia.org/wiki/Alpha–beta_pruning).
+I was able to understand Alpha-Beta pruning enough to make this code functional, but I don’t think I could effectively explain it to others. I must defer to [Wikipedia](https://en.wikipedia.org/wiki/Alpha–beta_pruning).
 
 Without going into specifics, this algorithm figures out which branches do not need to be evaluated based on the highest score of previously evaluated branches (alpha) and the lowest score of previously evaluated branches (beta). There are plenty of college resources that will you can look at online (I recommend Cornell or UPenn’s resources, especially).
 
