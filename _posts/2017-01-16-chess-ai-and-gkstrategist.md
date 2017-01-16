@@ -96,6 +96,7 @@ The code for the AlphaBetaStrategist is the same as MinMaxStrategist, except for
 move.value = minmax(model: modelCopy, depth: maxDepth, maximizing: true)
 ```
 becomes
+
 ```swift
 move.value = alphabeta(board: boardCopy, depth: maxDepth, alpha: Int.min, beta: Int.max, maximizing: true)
 ```
