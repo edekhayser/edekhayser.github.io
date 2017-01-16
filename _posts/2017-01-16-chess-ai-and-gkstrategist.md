@@ -137,7 +137,7 @@ I was able to understand Alpha-Beta pruning enough to make this code functional,
 
 Without going into specifics, this algorithm figures out which branches do not need to be evaluated based on the highest score of previously evaluated branches (alpha) and the lowest score of previously evaluated branches (beta). There are plenty of college resources that will you can look at online (I recommend Cornell or UPenn’s resources, especially).
 
-##More?
+## More?
 
 There is always more. I am currently using the Alpha-Beta strategist in my game, which requires some tweaking to make the scoring function work better. I’m also looking for places to make this algorithm more efficient, as time constraints still force me to only look 2 or 3 moves deep. I would like to be able to move that up to 4 or 5.
 
