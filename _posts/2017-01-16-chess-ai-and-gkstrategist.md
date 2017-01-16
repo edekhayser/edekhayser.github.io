@@ -12,7 +12,7 @@ At the moment, GameplayKit comes with two strategists: GKMinMaxStrategist and GK
 
 This project is meant as a learning experience, so I have been trying to learn exactly what happens under the hood of these two classes. What better way is there to learn that by recreating them?
 
-## MonteCarloStrategist
+### MonteCarloStrategist
 
 The Monte Carlo strategy focuses on win-loss conditions only, so it was not even worth considering for a game as long and drawn out as chess. It evaluates moves based on how likely they are to lead to a win or a loss. Rather than evaluating every move, it chooses several random moves and sees what happens in the future. If no move is found quickly, it moves onto another move.
 
@@ -20,7 +20,7 @@ Even though this makes no sense for a game like chess (tic-tac-toe would be a mo
 
 Because of the complex nature of chess, Monte Carlo is not the right place to look for an AI.
 
-## MinMaxStrategist
+### MinMaxStrategist
 
 This was the first strategist made available to developers at WWDC 2015. Minmax is also one of the leading techniques used by chess software, so it is clearly worth strong consideration. Without including memory optimizations Apple’s provided class probably uses, here is the source code of a Minmax strategist I developed for my game:
 
@@ -86,7 +86,7 @@ Another critical issue with Minmax is that it is exhaustive. The first move of a
 
 How can this be improved? Alpha-Beta Pruning.
 
-## AlphaBetaStrategist
+### AlphaBetaStrategist
 
 I do not believe GKMinMaxStrategist uses Alpha-Beta pruning because the documentation makes no mention of it. If I get the chance to attend WWDC 2017, I will definitely reach out to an Apple engineer.
 
@@ -137,7 +137,7 @@ I was able to understand Alpha-Beta pruning enough to make this code functional,
 
 Without going into specifics, this algorithm figures out which branches do not need to be evaluated based on the highest score of previously evaluated branches (alpha) and the lowest score of previously evaluated branches (beta). There are plenty of college resources that will you can look at online (I recommend Cornell or UPenn’s resources, especially).
 
-## More?
+### More?
 
 There is always more. I am currently using the Alpha-Beta strategist in my game, which requires some tweaking to make the scoring function work better. I’m also looking for places to make this algorithm more efficient, as time constraints still force me to only look 2 or 3 moves deep. I would like to be able to move that up to 4 or 5.
 
