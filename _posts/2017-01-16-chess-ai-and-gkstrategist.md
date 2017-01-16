@@ -92,8 +92,15 @@ I do not believe GKMinMaxStrategist uses Alpha-Beta pruning because the document
 
 The code for the AlphaBetaStrategist is the same as MinMaxStrategist, except for these changes:
 
-`move.value = minmax(model: modelCopy, depth: maxDepth, maximizing: true)` becomes `move.value = alphabeta(board: boardCopy, depth: maxDepth, alpha: Int.min, beta: Int.max, maximizing: true)`
-- The minimax function is replaced by the following:
+```swift
+move.value = minmax(model: modelCopy, depth: maxDepth, maximizing: true)
+```
+becomes
+```swift
+move.value = alphabeta(board: boardCopy, depth: maxDepth, alpha: Int.min, beta: Int.max, maximizing: true)
+```
+
+Also, the minimax function is replaced by the following:
 
 ```swift
 func alphabeta(model: GKGameModel, depth: Int, alpha: Int, beta: Int, maximizing: Bool) → Int {
