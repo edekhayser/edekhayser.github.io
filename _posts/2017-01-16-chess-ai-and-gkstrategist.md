@@ -88,7 +88,9 @@ How can this be improved? Alpha-Beta Pruning.
 
 ### AlphaBetaStrategist
 
-I do not believe GKMinMaxStrategist uses Alpha-Beta pruning because the documentation makes no mention of it. If I get the chance to attend WWDC 2017, I will definitely reach out to an Apple engineer.
+~~I do not believe GKMinMaxStrategist uses Alpha-Beta pruning because the documentation makes no mention of it. If I get the chance to attend WWDC 2017, I will definitely reach out to an Apple engineer.~~
+
+*Update:* GKMinMaxStrategist likely does use this technique. I timed the class implemented below, and I timed GKMinMaxStrategist, and Apple's version runs faster. My best guess, they use Alpha-Beta pruning as well as other optimizations. If I can go to WWDC this year, I still will talk to an Apple engineer
 
 The code for the AlphaBetaStrategist is the same as MinMaxStrategist, except for these changes:
 
