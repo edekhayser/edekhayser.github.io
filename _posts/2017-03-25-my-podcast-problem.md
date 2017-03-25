@@ -42,9 +42,9 @@ Here is my list of podcasts I listen to on a regular basis:
 
 I have to cut back on which podcasts I listen to, because this is getting out of hand. Most likely, I'll decide which ones to cut using some of these criteria:
 
-- *Do I remember what this podcast is about without looking at the description? Do I remember who the hosts are?* If not, maybe I am not getting as much out of the show as I believed.
-- *Is there anything I get from this podcast that I don't get from any other podcast?* No point in listening to redundant content.
-- *How much of a time commitment is the podcast?* One hour a month is easy to justify. Two hours per week, on the other hand, is less so.
-- *How invested am I in the podcast already?* If I have only listened to a few episodes of a podcast so far, it would be easier to stop listening than it would be if I listened for a year or two already.
+- _Do I remember what this podcast is about without looking at the description? Do I remember who the hosts are?_ If not, maybe I am not getting as much out of the show as I believed.
+- _Is there anything I get from this podcast that I don't get from any other podcast?_ No point in listening to redundant content.
+- _How much of a time commitment is the podcast?_ One hour a month is easy to justify. Two hours per week, on the other hand, is less so.
+- _How invested am I in the podcast already?_ If I have only listened to a few episodes of a podcast so far, it would be easier to stop listening than it would be if I listened for a year or two already.
 
 Even though I want to listen to all these podcasts, I need to get down to 20 podcasts so I don't have to always feel like listening to podcasts is another chore to do before next week's episodes come out. I enjoy listening to these shows, but when it gets laborious to listen to all of them, you know there's a problem.
