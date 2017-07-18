@@ -20,7 +20,7 @@ However, the way the user phrased the email made it sound like he was addressing
 
 I decided to update the app with the following change:
 
-![](https://github.com/edekhayser/edekhayser.github.io/_images/contact-me.jpeg)
+![](https://github.com/edekhayser/edekhayser.github.io/raw/master/_images/contact-me.jpeg)
 
 > My name is Evan, and I am a student who works on this app part-time. If you have any questions or feedback, please send me an email so I can get back to you ASAP.
 
