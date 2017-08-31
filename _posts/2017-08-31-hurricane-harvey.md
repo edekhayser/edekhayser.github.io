@@ -3,7 +3,7 @@ title: "Hurricane Harvey"
 date: 2017-08-31
 ---
 
-<h2><a href="http://evandekhayser.com/2017/08/30/Hurricane-Harvey" class="title">Hurricane Harvey</a></h2>
+<h2><a href="http://evandekhayser.com/2017/08/31/Hurricane-Harvey" class="title">Hurricane Harvey</a></h2>
 <h5>31 Aug 2017</h5>
 
 Luckily, Rice's campus held up really well through the storm. We never lost water or electricity, we had no shortage of food, and the damage was generally limited to some trees falling. Things could have definitely been much worse, so we got off pretty easily.

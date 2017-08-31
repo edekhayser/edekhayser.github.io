@@ -1,10 +1,4 @@
-//
-//  main.swift
-//  NewPost
-//
-//  Created by Evan Dekhayser on 1/14/17.
-//  Copyright © 2017 Xappox, LLC. All rights reserved.
-//
+#!/usr/bin/swift
 
 import Foundation
 
@@ -24,3 +18,4 @@ let currentPath = FileManager.default.currentDirectoryPath
 print(currentPath)
 let path = URL.init(fileURLWithPath: currentPath + "/\(year)-\(month)-\(day)-\(filteredTitle).md")
 try! fileText.write(to: path , atomically: false, encoding: .utf8)
+
